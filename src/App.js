@@ -43,11 +43,11 @@ function Footer(props) {
 //a component using method
 function App() {
   return (
-    <div className="App">
+    <>
       <Header name = "Amit"/>
       <Main adjective = "amazing" dishes = {dishObjests}/>
       <Footer year = {new Date().getFullYear()}/>
-    </div>
+    </>
   );
 }
 
