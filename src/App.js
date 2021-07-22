@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function Header(props) {
@@ -13,9 +12,23 @@ function Main(props) {
   return (
     <section>
     <p>We serve the most {props.adjective} food around.</p>
+    <ul>
+      { 
+        props.dishes.map( dish => 
+          (<li key = {dish.id}>{dish.title}</li>)
+        )
+      }
+    </ul>
     </section>
   );
 }
+
+const dishes = ["sahi paneer","mashroom mashala","nan"];
+
+const dishObjests = dishes.map(
+  (dish, i) => { return {id : i, title : dish} }
+);
+
 
 function Footer(props) {
   return (
@@ -30,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <Header name = "Amit"/>
-      <Main adjective = "amazing"/>
+      <Main adjective = "amazing" dishes = {dishObjests}/>
       <Footer year = {new Date().getFullYear()}/>
     </div>
   );
