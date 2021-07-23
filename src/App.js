@@ -16,7 +16,9 @@ function App({login}) {
   {
     return (
       <div>
-        {JSON.stringify(data)}
+        <h1>{data.id}</h1>
+        <p>{data.login}</p>
+        <img alt={data.login} src = {data.avatar_url} />
       </div>
     );
   }
