@@ -1,23 +1,14 @@
+import React, {useState} from 'react';
 import './App.css';
 
-function AuthorizedComponent() {
-  return (
-    <h1>This is authorized data.</h1>
-  );
-}
-
-function RegularComponent() {
-  return (
-    <h1>This is regular data.</h1>
-  );
-}
-
 //a component using method
-//{authorized} - object destructuring
 function App({authorized}) {
+  const [mood, setMood] = useState("happy");
   return (
     <>
-    {authorized ? <AuthorizedComponent /> : <RegularComponent />}
+    <h1>I am feeling {mood}</h1>
+    <button onClick = {()=>setMood("frustrated")}>Frustrate</button>
+    <button onClick = {()=>setMood("happy")}>Happy</button>
     </>
   );
 }
