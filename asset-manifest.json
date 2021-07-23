@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-essentials/static/css/main.a617e044.chunk.css",
-    "main.js": "/react-essentials/static/js/main.09fdd1e8.chunk.js",
-    "main.js.map": "/react-essentials/static/js/main.09fdd1e8.chunk.js.map",
+    "main.js": "/react-essentials/static/js/main.308fc4c7.chunk.js",
+    "main.js.map": "/react-essentials/static/js/main.308fc4c7.chunk.js.map",
     "runtime-main.js": "/react-essentials/static/js/runtime-main.b416e3b9.js",
     "runtime-main.js.map": "/react-essentials/static/js/runtime-main.b416e3b9.js.map",
-    "static/js/2.848431c2.chunk.js": "/react-essentials/static/js/2.848431c2.chunk.js",
-    "static/js/2.848431c2.chunk.js.map": "/react-essentials/static/js/2.848431c2.chunk.js.map",
+    "static/js/2.84837b57.chunk.js": "/react-essentials/static/js/2.84837b57.chunk.js",
+    "static/js/2.84837b57.chunk.js.map": "/react-essentials/static/js/2.84837b57.chunk.js.map",
     "index.html": "/react-essentials/index.html",
     "static/css/main.a617e044.chunk.css.map": "/react-essentials/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.848431c2.chunk.js.LICENSE.txt": "/react-essentials/static/js/2.848431c2.chunk.js.LICENSE.txt"
+    "static/js/2.84837b57.chunk.js.LICENSE.txt": "/react-essentials/static/js/2.84837b57.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b416e3b9.js",
-    "static/js/2.848431c2.chunk.js",
+    "static/js/2.84837b57.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.09fdd1e8.chunk.js"
+    "static/js/main.308fc4c7.chunk.js"
   ]
 }
