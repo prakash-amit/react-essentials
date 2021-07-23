@@ -13,10 +13,11 @@ function RegularComponent() {
 }
 
 //a component using method
-function App(props) {
+//{authorized} - object destructuring
+function App({authorized}) {
   return (
     <>
-    {props.authorized ? <AuthorizedComponent /> : <RegularComponent />}
+    {authorized ? <AuthorizedComponent /> : <RegularComponent />}
     </>
   );
 }
